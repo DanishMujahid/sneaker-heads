@@ -1,3 +1,55 @@
+h1 {
+    justify-content: center;
+    content: "";
+    display: block;
+    position: center;
+    background-image: linear-gradient(#e66465, #9198e5);
+
+}
+
+.main {
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg")
+}
+
+#row1 {
+    background-color: red;
+}
+.row1-section1 {
+    background-color: rgb(36, 152, 190);
+    margin: 50px;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    color: white
+  }
+  img {
+    padding: 10px;
+    text-align: center;
+    margin: 50px;
+    width: 500px;
+
+  }
+  h1 {
+    color: white;
+    text-shadow: red;
+    text-align: center;
+  }
+  h2 {
+    color: white;
+    text-align: center;
+  }
+  h3 {
+    color: rgb(8, 41, 255);
+    text-align: center;
+  }
+  h4 {
+    color: white;
+    text-align: center;
+
+  }
+
 /* Write Your CSS Below 
 Colors: 
 - rgb(243, 183, 106)
@@ -26,10 +78,3 @@ Images:
     - (You may use any image you would like for the background!)
 */
 
-h1 {
-    content: "";
-    display: block;
-    position: absolute;
-    background: linear-gradient(#e66465, #9198e5);
-
-}
