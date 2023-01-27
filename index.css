@@ -1,53 +1,62 @@
 h1 {
+    align-items: center;
+    align-content: center;
     justify-content: center;
-    content: "";
-    display: block;
-    position: center;
-    background-image: linear-gradient(#e66465, #9198e5);
+    display: flex;
+    text-align: center;
+    position: relative;
+    background-image: linear-gradient(lightblue, #e66465);
+    border-radius: 0.75rem;
+    width: 50%;
+    left: 40%;
+    color: blueviolet;
+    text-decoration-line: underline; 
 
-}
 
-.main {
-    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg")
 }
 
 #row1 {
+  background-color: rgb(36, 152, 190);
+    margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+img {
+  border-radius: 0.75rem;
+  border-color: blue;
+  border: 10px;
+}
+#main {
     background-color: red;
 }
-.row1-section1 {
+#row2 {
     background-color: rgb(36, 152, 190);
     margin: 50px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
   }
   
-  p {
-    font-family: verdana;
-    font-size: 20px;
-    color: white
-  }
+  
   img {
     padding: 10px;
     text-align: center;
     margin: 50px;
     width: 500px;
-
   }
-  h1 {
-    color: white;
-    text-shadow: red;
-    text-align: center;
+  body {
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
   }
-  h2 {
-    color: white;
-    text-align: center;
-  }
-  h3 {
-    color: rgb(8, 41, 255);
-    text-align: center;
-  }
-  h4 {
-    color: white;
-    text-align: center;
-
+  p {
+    background-color: lightblue;
+    border-radius: 0.75rem;
+    padding: 20px;
+    border-color: red;
   }
 
 /* Write Your CSS Below 
